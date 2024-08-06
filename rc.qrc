@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/">
+        <file>rec/chat.png</file>
+        <file>rec/login.png</file>
+        <file>style/stylesheet.qss</file>
+        <file>rec/lianjie.png</file>
+    </qresource>
+</RCC>
