@@ -22,6 +22,7 @@ class LoginDialog : public QDialog
 public:
     explicit LoginDialog(QWidget *parent = nullptr);
     ~LoginDialog();
+    void initHttpHandlers();
 
 private:
     Ui::LoginDialog *ui;

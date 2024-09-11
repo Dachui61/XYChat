@@ -3,6 +3,7 @@
 
 #include <QMainWindow>
 #include <logindialog.h>
+#include "chatdialog.h"
 #include "registerdialog.h"
 /******************************************************************************
  *
@@ -31,8 +32,10 @@ private:
     Ui::MainWindow *ui;
     LoginDialog * _login_dialog;
     registerDialog * _register_dialog;
+    ChatDialog * _chat_dialog;
 
 public slots:
     void SlotSwitchReg();
+    void SlotSwitchChat();
 };
 #endif // MAINWINDOW_H

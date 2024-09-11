@@ -4,5 +4,16 @@
         <file>rec/login.png</file>
         <file>style/stylesheet.qss</file>
         <file>rec/lianjie.png</file>
+        <file>rec/add_user.png</file>
+        <file>rec/click_data.png</file>
+        <file>rec/click_favorites.png</file>
+        <file>rec/click_friend.png</file>
+        <file>rec/click_users.png</file>
+        <file>rec/unclick_data.png</file>
+        <file>rec/unclick_favorites.png</file>
+        <file>rec/unclick_friend.png</file>
+        <file>rec/unclick_users.png</file>
+        <file>rec/click_chat.png</file>
+        <file>rec/unclick_chat.png</file>
     </qresource>
 </RCC>

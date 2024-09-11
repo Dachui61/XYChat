@@ -161,12 +161,12 @@
             </widget>
            </item>
            <item>
-            <widget class="QLineEdit" name="lineEdit"/>
+            <widget class="QLineEdit" name="varify_edit"/>
            </item>
            <item>
-            <widget class="QPushButton" name="get_code_btn">
+            <widget class="TimerBtn" name="get_code_btn">
              <property name="text">
-              <string>获取验证码</string>
+              <string>获取</string>
              </property>
             </widget>
            </item>
@@ -204,7 +204,7 @@
          <item>
           <layout class="QHBoxLayout" name="horizontalLayout_11">
            <item>
-            <widget class="QPushButton" name="confirm_btn">
+            <widget class="QPushButton" name="sure_btn">
              <property name="minimumSize">
               <size>
                <width>0</width>
@@ -265,6 +265,13 @@
    </item>
   </layout>
  </widget>
+ <customwidgets>
+  <customwidget>
+   <class>TimerBtn</class>
+   <extends>QPushButton</extends>
+   <header>timerbtn.h</header>
+  </customwidget>
+ </customwidgets>
  <resources>
   <include location="rc.qrc"/>
  </resources>
